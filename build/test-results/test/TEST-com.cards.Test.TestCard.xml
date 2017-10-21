@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.cards.Test.TestCard" tests="8" skipped="0" failures="0" errors="0" timestamp="2017-10-21T05:42:19" hostname="Balamurugan" time="0.016">
+  <properties/>
+  <testcase name="testCompareCardEquals" classname="com.cards.Test.TestCard" time="0.002"/>
+  <testcase name="testGetACard" classname="com.cards.Test.TestCard" time="0.001"/>
+  <testcase name="testRemove" classname="com.cards.Test.TestCard" time="0.001"/>
+  <testcase name="testaddOrUpdate" classname="com.cards.Test.TestCard" time="0.0"/>
+  <testcase name="testCompareCardEquals" classname="com.cards.Test.TestCard" time="0.0"/>
+  <testcase name="testGetACard" classname="com.cards.Test.TestCard" time="0.0"/>
+  <testcase name="testRemove" classname="com.cards.Test.TestCard" time="0.0"/>
+  <testcase name="testaddOrUpdate" classname="com.cards.Test.TestCard" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
