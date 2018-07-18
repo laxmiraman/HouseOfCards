@@ -1,0 +1,274 @@
+{
+	"variables": [],
+	"info": {
+		"name": "CardDecK",
+		"_postman_id": "316fe557-1478-2b08-7109-215a619ed400",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/deck/getAll/",
+			"request": {
+				"url": "http://localhost:8080/deck/getAll/",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": "To get All decks"
+			},
+			"response": [
+				{
+					"id": "09ffa9e6-6029-45de-8117-3f73c95d3684",
+					"name": "http://localhost:8080/deck/getAll/",
+					"originalRequest": {
+						"url": "http://localhost:8080/deck/getAll/",
+						"method": "GET",
+						"header": [],
+						"body": {}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"_postman_previewtype": "text",
+					"header": [
+						{
+							"name": "content-type",
+							"key": "content-type",
+							"value": "application/json;charset=utf-8",
+							"description": "The mime type of this content"
+						},
+						{
+							"name": "date",
+							"key": "date",
+							"value": "Wed, 18 Jul 2018 03:03:24 GMT",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"name": "transfer-encoding",
+							"key": "transfer-encoding",
+							"value": "chunked",
+							"description": "The form of encoding used to safely transfer the entity to the user. Currently defined methods are: chunked, compress, deflate, gzip, identity."
+						},
+						{
+							"name": "x-application-context",
+							"key": "x-application-context",
+							"value": "application",
+							"description": "Custom header"
+						}
+					],
+					"cookie": [],
+					"responseTime": 36,
+					"body": "[[{\"rank\":\"THREE\",\"suit\":\"HEARTS\"},{\"rank\":\"TEN\",\"suit\":\"CLUBS\"},{\"rank\":\"FIVE\",\"suit\":\"DIAMONDS\"},{\"rank\":\"JACK\",\"suit\":\"HEARTS\"},{\"rank\":\"SEVEN\",\"suit\":\"SPADES\"},{\"rank\":\"NINE\",\"suit\":\"HEARTS\"},{\"rank\":\"JACK\",\"suit\":\"SPADES\"},{\"rank\":\"SIX\",\"suit\":\"DIAMONDS\"},{\"rank\":\"KING\",\"suit\":\"CLUBS\"},{\"rank\":\"TWO\",\"suit\":\"SPADES\"},{\"rank\":\"FIVE\",\"suit\":\"HEARTS\"},{\"rank\":\"QUEEN\",\"suit\":\"SPADES\"},{\"rank\":\"NINE\",\"suit\":\"SPADES\"},{\"rank\":\"THREE\",\"suit\":\"DIAMONDS\"},{\"rank\":\"FOUR\",\"suit\":\"CLUBS\"},{\"rank\":\"TEN\",\"suit\":\"DIAMONDS\"},{\"rank\":\"KING\",\"suit\":\"HEARTS\"},{\"rank\":\"EIGHT\",\"suit\":\"SPADES\"},{\"rank\":\"JACK\",\"suit\":\"CLUBS\"},{\"rank\":\"ACE\",\"suit\":\"SPADES\"},{\"rank\":\"FIVE\",\"suit\":\"CLUBS\"},{\"rank\":\"TWO\",\"suit\":\"CLUBS\"},{\"rank\":\"NINE\",\"suit\":\"DIAMONDS\"},{\"rank\":\"SEVEN\",\"suit\":\"DIAMONDS\"},{\"rank\":\"EIGHT\",\"suit\":\"CLUBS\"},{\"rank\":\"KING\",\"suit\":\"SPADES\"},{\"rank\":\"SIX\",\"suit\":\"HEARTS\"},{\"rank\":\"TWO\",\"suit\":\"HEARTS\"},{\"rank\":\"KING\",\"suit\":\"DIAMONDS\"},{\"rank\":\"FIVE\",\"suit\":\"SPADES\"},{\"rank\":\"TEN\",\"suit\":\"SPADES\"},{\"rank\":\"TEN\",\"suit\":\"HEARTS\"},{\"rank\":\"ACE\",\"suit\":\"CLUBS\"},{\"rank\":\"ACE\",\"suit\":\"HEARTS\"},{\"rank\":\"QUEEN\",\"suit\":\"HEARTS\"},{\"rank\":\"THREE\",\"suit\":\"CLUBS\"},{\"rank\":\"THREE\",\"suit\":\"SPADES\"},{\"rank\":\"EIGHT\",\"suit\":\"HEARTS\"},{\"rank\":\"QUEEN\",\"suit\":\"CLUBS\"},{\"rank\":\"QUEEN\",\"suit\":\"DIAMONDS\"},{\"rank\":\"NINE\",\"suit\":\"CLUBS\"},{\"rank\":\"FOUR\",\"suit\":\"HEARTS\"},{\"rank\":\"TWO\",\"suit\":\"DIAMONDS\"},{\"rank\":\"EIGHT\",\"suit\":\"DIAMONDS\"},{\"rank\":\"FOUR\",\"suit\":\"DIAMONDS\"},{\"rank\":\"JACK\",\"suit\":\"DIAMONDS\"},{\"rank\":\"SIX\",\"suit\":\"CLUBS\"},{\"rank\":\"SIX\",\"suit\":\"SPADES\"},{\"rank\":\"SEVEN\",\"suit\":\"CLUBS\"},{\"rank\":\"FOUR\",\"suit\":\"SPADES\"},{\"rank\":\"SEVEN\",\"suit\":\"HEARTS\"},{\"rank\":\"ACE\",\"suit\":\"DIAMONDS\"}]]"
+				}
+			]
+		},
+		{
+			"name": "http://localhost:8080/deck/get/Deck1",
+			"request": {
+				"url": "http://localhost:8080/deck/get/Deck1",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": "To get a particular Deck"
+			},
+			"response": [
+				{
+					"id": "c3f70574-a70b-4a72-9cfd-69a5383b0011",
+					"name": "http://localhost:8080/deck/get/Deck1",
+					"originalRequest": {
+						"url": "http://localhost:8080/deck/get/Deck1",
+						"method": "GET",
+						"header": [],
+						"body": {}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"_postman_previewtype": "text",
+					"header": [
+						{
+							"name": "content-type",
+							"key": "content-type",
+							"value": "application/json;charset=utf-8",
+							"description": "The mime type of this content"
+						},
+						{
+							"name": "date",
+							"key": "date",
+							"value": "Wed, 18 Jul 2018 03:05:18 GMT",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"name": "transfer-encoding",
+							"key": "transfer-encoding",
+							"value": "chunked",
+							"description": "The form of encoding used to safely transfer the entity to the user. Currently defined methods are: chunked, compress, deflate, gzip, identity."
+						},
+						{
+							"name": "x-application-context",
+							"key": "x-application-context",
+							"value": "application",
+							"description": "Custom header"
+						}
+					],
+					"cookie": [],
+					"responseTime": 49,
+					"body": "[{\"rank\":\"THREE\",\"suit\":\"HEARTS\"},{\"rank\":\"TEN\",\"suit\":\"CLUBS\"},{\"rank\":\"FIVE\",\"suit\":\"DIAMONDS\"},{\"rank\":\"JACK\",\"suit\":\"HEARTS\"},{\"rank\":\"SEVEN\",\"suit\":\"SPADES\"},{\"rank\":\"NINE\",\"suit\":\"HEARTS\"},{\"rank\":\"JACK\",\"suit\":\"SPADES\"},{\"rank\":\"SIX\",\"suit\":\"DIAMONDS\"},{\"rank\":\"KING\",\"suit\":\"CLUBS\"},{\"rank\":\"TWO\",\"suit\":\"SPADES\"},{\"rank\":\"FIVE\",\"suit\":\"HEARTS\"},{\"rank\":\"QUEEN\",\"suit\":\"SPADES\"},{\"rank\":\"NINE\",\"suit\":\"SPADES\"},{\"rank\":\"THREE\",\"suit\":\"DIAMONDS\"},{\"rank\":\"FOUR\",\"suit\":\"CLUBS\"},{\"rank\":\"TEN\",\"suit\":\"DIAMONDS\"},{\"rank\":\"KING\",\"suit\":\"HEARTS\"},{\"rank\":\"EIGHT\",\"suit\":\"SPADES\"},{\"rank\":\"JACK\",\"suit\":\"CLUBS\"},{\"rank\":\"ACE\",\"suit\":\"SPADES\"},{\"rank\":\"FIVE\",\"suit\":\"CLUBS\"},{\"rank\":\"TWO\",\"suit\":\"CLUBS\"},{\"rank\":\"NINE\",\"suit\":\"DIAMONDS\"},{\"rank\":\"SEVEN\",\"suit\":\"DIAMONDS\"},{\"rank\":\"EIGHT\",\"suit\":\"CLUBS\"},{\"rank\":\"KING\",\"suit\":\"SPADES\"},{\"rank\":\"SIX\",\"suit\":\"HEARTS\"},{\"rank\":\"TWO\",\"suit\":\"HEARTS\"},{\"rank\":\"KING\",\"suit\":\"DIAMONDS\"},{\"rank\":\"FIVE\",\"suit\":\"SPADES\"},{\"rank\":\"TEN\",\"suit\":\"SPADES\"},{\"rank\":\"TEN\",\"suit\":\"HEARTS\"},{\"rank\":\"ACE\",\"suit\":\"CLUBS\"},{\"rank\":\"ACE\",\"suit\":\"HEARTS\"},{\"rank\":\"QUEEN\",\"suit\":\"HEARTS\"},{\"rank\":\"THREE\",\"suit\":\"CLUBS\"},{\"rank\":\"THREE\",\"suit\":\"SPADES\"},{\"rank\":\"EIGHT\",\"suit\":\"HEARTS\"},{\"rank\":\"QUEEN\",\"suit\":\"CLUBS\"},{\"rank\":\"QUEEN\",\"suit\":\"DIAMONDS\"},{\"rank\":\"NINE\",\"suit\":\"CLUBS\"},{\"rank\":\"FOUR\",\"suit\":\"HEARTS\"},{\"rank\":\"TWO\",\"suit\":\"DIAMONDS\"},{\"rank\":\"EIGHT\",\"suit\":\"DIAMONDS\"},{\"rank\":\"FOUR\",\"suit\":\"DIAMONDS\"},{\"rank\":\"JACK\",\"suit\":\"DIAMONDS\"},{\"rank\":\"SIX\",\"suit\":\"CLUBS\"},{\"rank\":\"SIX\",\"suit\":\"SPADES\"},{\"rank\":\"SEVEN\",\"suit\":\"CLUBS\"},{\"rank\":\"FOUR\",\"suit\":\"SPADES\"},{\"rank\":\"SEVEN\",\"suit\":\"HEARTS\"},{\"rank\":\"ACE\",\"suit\":\"DIAMONDS\"}]"
+				}
+			]
+		},
+		{
+			"name": "http://localhost:8080/deck/new/Deck2",
+			"request": {
+				"url": "http://localhost:8080/deck/new/Deck2",
+				"method": "PUT",
+				"header": [],
+				"body": {},
+				"description": "Creates a new Deck"
+			},
+			"response": [
+				{
+					"id": "1c079efa-12cc-499b-b92b-b7ba55c8bba0",
+					"name": "http://localhost:8080/deck/new/Deck2",
+					"originalRequest": {
+						"url": "http://localhost:8080/deck/new/Deck2",
+						"method": "PUT",
+						"header": [],
+						"body": {}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"_postman_previewtype": "text",
+					"header": [
+						{
+							"name": "content-type",
+							"key": "content-type",
+							"value": "application/json;charset=utf-8",
+							"description": "The mime type of this content"
+						},
+						{
+							"name": "date",
+							"key": "date",
+							"value": "Wed, 18 Jul 2018 03:06:52 GMT",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"name": "transfer-encoding",
+							"key": "transfer-encoding",
+							"value": "chunked",
+							"description": "The form of encoding used to safely transfer the entity to the user. Currently defined methods are: chunked, compress, deflate, gzip, identity."
+						},
+						{
+							"name": "x-application-context",
+							"key": "x-application-context",
+							"value": "application",
+							"description": "Custom header"
+						}
+					],
+					"cookie": [],
+					"responseTime": 23,
+					"body": "[{\"rank\":\"ACE\",\"suit\":\"SPADES\"},{\"rank\":\"ACE\",\"suit\":\"HEARTS\"},{\"rank\":\"ACE\",\"suit\":\"DIAMONDS\"},{\"rank\":\"ACE\",\"suit\":\"CLUBS\"},{\"rank\":\"TWO\",\"suit\":\"SPADES\"},{\"rank\":\"TWO\",\"suit\":\"HEARTS\"},{\"rank\":\"TWO\",\"suit\":\"DIAMONDS\"},{\"rank\":\"TWO\",\"suit\":\"CLUBS\"},{\"rank\":\"THREE\",\"suit\":\"SPADES\"},{\"rank\":\"THREE\",\"suit\":\"HEARTS\"},{\"rank\":\"THREE\",\"suit\":\"DIAMONDS\"},{\"rank\":\"THREE\",\"suit\":\"CLUBS\"},{\"rank\":\"FOUR\",\"suit\":\"SPADES\"},{\"rank\":\"FOUR\",\"suit\":\"HEARTS\"},{\"rank\":\"FOUR\",\"suit\":\"DIAMONDS\"},{\"rank\":\"FOUR\",\"suit\":\"CLUBS\"},{\"rank\":\"FIVE\",\"suit\":\"SPADES\"},{\"rank\":\"FIVE\",\"suit\":\"HEARTS\"},{\"rank\":\"FIVE\",\"suit\":\"DIAMONDS\"},{\"rank\":\"FIVE\",\"suit\":\"CLUBS\"},{\"rank\":\"SIX\",\"suit\":\"SPADES\"},{\"rank\":\"SIX\",\"suit\":\"HEARTS\"},{\"rank\":\"SIX\",\"suit\":\"DIAMONDS\"},{\"rank\":\"SIX\",\"suit\":\"CLUBS\"},{\"rank\":\"SEVEN\",\"suit\":\"SPADES\"},{\"rank\":\"SEVEN\",\"suit\":\"HEARTS\"},{\"rank\":\"SEVEN\",\"suit\":\"DIAMONDS\"},{\"rank\":\"SEVEN\",\"suit\":\"CLUBS\"},{\"rank\":\"EIGHT\",\"suit\":\"SPADES\"},{\"rank\":\"EIGHT\",\"suit\":\"HEARTS\"},{\"rank\":\"EIGHT\",\"suit\":\"DIAMONDS\"},{\"rank\":\"EIGHT\",\"suit\":\"CLUBS\"},{\"rank\":\"NINE\",\"suit\":\"SPADES\"},{\"rank\":\"NINE\",\"suit\":\"HEARTS\"},{\"rank\":\"NINE\",\"suit\":\"DIAMONDS\"},{\"rank\":\"NINE\",\"suit\":\"CLUBS\"},{\"rank\":\"TEN\",\"suit\":\"SPADES\"},{\"rank\":\"TEN\",\"suit\":\"HEARTS\"},{\"rank\":\"TEN\",\"suit\":\"DIAMONDS\"},{\"rank\":\"TEN\",\"suit\":\"CLUBS\"},{\"rank\":\"JACK\",\"suit\":\"SPADES\"},{\"rank\":\"JACK\",\"suit\":\"HEARTS\"},{\"rank\":\"JACK\",\"suit\":\"DIAMONDS\"},{\"rank\":\"JACK\",\"suit\":\"CLUBS\"},{\"rank\":\"QUEEN\",\"suit\":\"SPADES\"},{\"rank\":\"QUEEN\",\"suit\":\"HEARTS\"},{\"rank\":\"QUEEN\",\"suit\":\"DIAMONDS\"},{\"rank\":\"QUEEN\",\"suit\":\"CLUBS\"},{\"rank\":\"KING\",\"suit\":\"SPADES\"},{\"rank\":\"KING\",\"suit\":\"HEARTS\"},{\"rank\":\"KING\",\"suit\":\"DIAMONDS\"},{\"rank\":\"KING\",\"suit\":\"CLUBS\"}]"
+				}
+			]
+		},
+		{
+			"name": "http://localhost:8080/deck/shuffle/Deck2",
+			"request": {
+				"url": "http://localhost:8080/deck/shuffle/Deck2",
+				"method": "POST",
+				"header": [],
+				"body": {},
+				"description": "Shuffles a given Deck"
+			},
+			"response": [
+				{
+					"id": "2acde825-f18e-4d94-b64e-798100c1efbf",
+					"name": "http://localhost:8080/deck/shuffle/Deck2",
+					"originalRequest": {
+						"url": "http://localhost:8080/deck/shuffle/Deck2",
+						"method": "POST",
+						"header": [],
+						"body": {}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"_postman_previewtype": "text",
+					"header": [
+						{
+							"name": "content-type",
+							"key": "content-type",
+							"value": "application/json;charset=utf-8",
+							"description": "The mime type of this content"
+						},
+						{
+							"name": "date",
+							"key": "date",
+							"value": "Wed, 18 Jul 2018 03:08:07 GMT",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"name": "transfer-encoding",
+							"key": "transfer-encoding",
+							"value": "chunked",
+							"description": "The form of encoding used to safely transfer the entity to the user. Currently defined methods are: chunked, compress, deflate, gzip, identity."
+						},
+						{
+							"name": "x-application-context",
+							"key": "x-application-context",
+							"value": "application",
+							"description": "Custom header"
+						}
+					],
+					"cookie": [],
+					"responseTime": 52,
+					"body": "[{\"rank\":\"TEN\",\"suit\":\"HEARTS\"},{\"rank\":\"TWO\",\"suit\":\"DIAMONDS\"},{\"rank\":\"EIGHT\",\"suit\":\"HEARTS\"},{\"rank\":\"SIX\",\"suit\":\"HEARTS\"},{\"rank\":\"TEN\",\"suit\":\"DIAMONDS\"},{\"rank\":\"NINE\",\"suit\":\"SPADES\"},{\"rank\":\"EIGHT\",\"suit\":\"CLUBS\"},{\"rank\":\"FOUR\",\"suit\":\"HEARTS\"},{\"rank\":\"TEN\",\"suit\":\"CLUBS\"},{\"rank\":\"KING\",\"suit\":\"SPADES\"},{\"rank\":\"FIVE\",\"suit\":\"SPADES\"},{\"rank\":\"ACE\",\"suit\":\"DIAMONDS\"},{\"rank\":\"NINE\",\"suit\":\"DIAMONDS\"},{\"rank\":\"FIVE\",\"suit\":\"DIAMONDS\"},{\"rank\":\"QUEEN\",\"suit\":\"CLUBS\"},{\"rank\":\"JACK\",\"suit\":\"DIAMONDS\"},{\"rank\":\"TWO\",\"suit\":\"CLUBS\"},{\"rank\":\"TEN\",\"suit\":\"SPADES\"},{\"rank\":\"QUEEN\",\"suit\":\"SPADES\"},{\"rank\":\"FOUR\",\"suit\":\"CLUBS\"},{\"rank\":\"JACK\",\"suit\":\"CLUBS\"},{\"rank\":\"SIX\",\"suit\":\"SPADES\"},{\"rank\":\"ACE\",\"suit\":\"SPADES\"},{\"rank\":\"FOUR\",\"suit\":\"SPADES\"},{\"rank\":\"FOUR\",\"suit\":\"DIAMONDS\"},{\"rank\":\"KING\",\"suit\":\"HEARTS\"},{\"rank\":\"SIX\",\"suit\":\"DIAMONDS\"},{\"rank\":\"THREE\",\"suit\":\"SPADES\"},{\"rank\":\"EIGHT\",\"suit\":\"DIAMONDS\"},{\"rank\":\"KING\",\"suit\":\"CLUBS\"},{\"rank\":\"THREE\",\"suit\":\"DIAMONDS\"},{\"rank\":\"FIVE\",\"suit\":\"CLUBS\"},{\"rank\":\"NINE\",\"suit\":\"HEARTS\"},{\"rank\":\"THREE\",\"suit\":\"CLUBS\"},{\"rank\":\"SEVEN\",\"suit\":\"CLUBS\"},{\"rank\":\"SEVEN\",\"suit\":\"SPADES\"},{\"rank\":\"ACE\",\"suit\":\"CLUBS\"},{\"rank\":\"ACE\",\"suit\":\"HEARTS\"},{\"rank\":\"EIGHT\",\"suit\":\"SPADES\"},{\"rank\":\"JACK\",\"suit\":\"SPADES\"},{\"rank\":\"TWO\",\"suit\":\"HEARTS\"},{\"rank\":\"THREE\",\"suit\":\"HEARTS\"},{\"rank\":\"NINE\",\"suit\":\"CLUBS\"},{\"rank\":\"SEVEN\",\"suit\":\"HEARTS\"},{\"rank\":\"FIVE\",\"suit\":\"HEARTS\"},{\"rank\":\"SEVEN\",\"suit\":\"DIAMONDS\"},{\"rank\":\"JACK\",\"suit\":\"HEARTS\"},{\"rank\":\"TWO\",\"suit\":\"SPADES\"},{\"rank\":\"SIX\",\"suit\":\"CLUBS\"},{\"rank\":\"QUEEN\",\"suit\":\"DIAMONDS\"},{\"rank\":\"QUEEN\",\"suit\":\"HEARTS\"},{\"rank\":\"KING\",\"suit\":\"DIAMONDS\"}]"
+				}
+			]
+		},
+		{
+			"name": "http://localhost:8080/deck/delete/Deck1",
+			"request": {
+				"url": "http://localhost:8080/deck/delete/Deck1",
+				"method": "DELETE",
+				"header": [],
+				"body": {},
+				"description": "Deletes a given deck"
+			},
+			"response": [
+				{
+					"id": "c53bad06-3b44-4f7b-a723-46b2ac800327",
+					"name": "http://localhost:8080/deck/delete/Deck1",
+					"originalRequest": {
+						"url": "http://localhost:8080/deck/delete/Deck1",
+						"method": "DELETE",
+						"header": [],
+						"body": {}
+					},
+					"status": "No Content",
+					"code": 204,
+					"_postman_previewlanguage": "plainText",
+					"_postman_previewtype": "text",
+					"header": [
+						{
+							"name": "date",
+							"key": "date",
+							"value": "Wed, 18 Jul 2018 03:09:13 GMT",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"name": "x-application-context",
+							"key": "x-application-context",
+							"value": "application",
+							"description": "Custom header"
+						}
+					],
+					"cookie": [],
+					"responseTime": 25,
+					"body": ""
+				}
+			]
+		}
+	]
+}
